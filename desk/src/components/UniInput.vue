@@ -51,6 +51,7 @@ const component = computed(() => {
   } else if (props.field.fieldtype === "Link" && props.field.options) {
     return h(SearchComplete, {
       doctype: props.field.options,
+      labelField:"name1",
     });
   } else if (props.field.fieldtype === "Select") {
     return h(Autocomplete, {

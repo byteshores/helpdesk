@@ -23,7 +23,9 @@ after_migrate = [
     "helpdesk.search.build_index_in_background",
     "helpdesk.search.download_corpus",
 ]
-
+fixtures = [
+	{"dt": "HD Ticket Template", "filters":[["name", "=", "Default"]]}
+]
 scheduler_events = {
     "all": ["helpdesk.search.build_index_if_not_exists"],
     "hourly": ["helpdesk.search.download_corpus"],
