@@ -24,6 +24,7 @@ after_migrate = [
     "helpdesk.search.download_corpus",
 ]
 fixtures = [
+   {"dt": "Custom Field", "filters":[["dt", "=", "HD Ticket"]]},
 	{"dt": "HD Ticket Template", "filters":[["name", "=", "Default"]]}
 ]
 scheduler_events = {
