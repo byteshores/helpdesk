@@ -24,7 +24,8 @@ after_migrate = [
     "helpdesk.search.download_corpus",
 ]
 fixtures = [
-	{"dt": "HD Ticket Template", "filters":[["name", "=", "Default"]]}
+    {"dt": "Property Setter", "filters":[["doc_type", "=", "HD Ticket"]]},
+    {"dt": "Custom Field", "filters":[["dt", "=", "HD Ticket"]]},
 ]
 scheduler_events = {
     "all": ["helpdesk.search.build_index_if_not_exists"],
@@ -36,6 +37,7 @@ website_route_rules = [
     {
         "from_route": "/helpdesk/<path:app_path>",
         "to_route": "helpdesk",
+
     },
 ]
 
