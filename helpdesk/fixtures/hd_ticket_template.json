@@ -1,0 +1,89 @@
+[
+ {
+  "about": null,
+  "docstatus": 0,
+  "doctype": "HD Ticket Template",
+  "fields": [
+   {
+    "fieldname": "custom_printer_brand",
+    "hide_from_customer": 0,
+    "placeholder": null,
+    "required": 0,
+    "url_method": null
+   },
+   {
+    "fieldname": "custom_printer_model",
+    "hide_from_customer": 0,
+    "placeholder": null,
+    "required": 1,
+    "url_method": null
+   },
+   {
+    "fieldname": "custom_printer_serial_no",
+    "hide_from_customer": 0,
+    "placeholder": null,
+    "required": 1,
+    "url_method": "inkrent.inkrent.controllers.queries.get_serialNos"
+   },
+   {
+    "fieldname": "custom_problem_type",
+    "hide_from_customer": 0,
+    "placeholder": null,
+    "required": 1,
+    "url_method": null
+   },
+   {
+    "fieldname": "custom_location",
+    "hide_from_customer": 0,
+    "placeholder": null,
+    "required": 1,
+    "url_method": "inkrent.inkrent.controllers.queries.get_customer_location"
+   },
+   {
+    "fieldname": "custom_city",
+    "hide_from_customer": 0,
+    "placeholder": null,
+    "required": 0,
+    "url_method": null
+   },
+   {
+    "fieldname": "custom_pin_code",
+    "hide_from_customer": 0,
+    "placeholder": null,
+    "required": 0,
+    "url_method": null
+   },
+   {
+    "fieldname": "custom_phone_no",
+    "hide_from_customer": 0,
+    "placeholder": null,
+    "required": 0,
+    "url_method": null
+   },
+   {
+    "fieldname": "custom_email_id",
+    "hide_from_customer": 0,
+    "placeholder": null,
+    "required": 1,
+    "url_method": null
+   },
+   {
+    "fieldname": "custom_email_id_1",
+    "hide_from_customer": 0,
+    "placeholder": null,
+    "required": 0,
+    "url_method": null
+   },
+   {
+    "fieldname": "custom_email_id_2",
+    "hide_from_customer": 0,
+    "placeholder": null,
+    "required": 0,
+    "url_method": null
+   }
+  ],
+  "modified": "2024-11-22 17:46:33.172407",
+  "name": "Default",
+  "template_name": "Default"
+ }
+]

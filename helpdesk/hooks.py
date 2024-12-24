@@ -26,8 +26,6 @@ after_migrate = [
 fixtures = [
     {"dt": "Property Setter", "filters":[["doc_type", "=", "HD Ticket"]]},
     {"dt": "Custom Field", "filters":[["dt", "=", "HD Ticket"]]},
-
-	
 ]
 scheduler_events = {
     "all": ["helpdesk.search.build_index_if_not_exists"],
